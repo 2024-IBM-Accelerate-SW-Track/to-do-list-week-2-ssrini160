@@ -1,6 +1,6 @@
 .split {
   height: 100%;
-  width: 50%;
+  width: 40%;
   position: fixed;
   z-index: -1;
   top: 0;
@@ -9,12 +9,16 @@
 }
 
 .left {
-  left: 0;
-  background-color: #0f62fe;
+  left: 60%;
+  scrollbar-color:#e6abff;
+  scrollbar-track-color: #e6abff;
+  scrollbar-3dlight-color: #e6abff;
+  scrollbar-3dlight-color: #e6abff; 
 }
 
 .right {
-  right: 0;
+  right: 50%;
+  background-size: auto;
 }
 
 .centered {
@@ -22,7 +26,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: centers;
+  text-align: left;
 }
 
 .name_title {
@@ -34,9 +38,9 @@
 
 .brief_description {
   text-align: left;
+  font-size: 20px;
 }
 
 .profile_image {
   width: 500px;
-  height: auto;
 }
