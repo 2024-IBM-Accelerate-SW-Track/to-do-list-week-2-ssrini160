@@ -1,31 +1,45 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import "./About.css";
-import profile_pic from "../assets/profile_pic.jpg";
+import shriya from  "../assets/shriya.jpg";
+
+
 
 export default class About extends Component {
   render() {
     return (
       <div>
-        {/* <p>Design your About me page </p> */}
-        <div class="split left">
-          <div className="centered">
-            <img
-              className="profile_image"
-              src={profile_pic}
-              alt="Profile Pic"
-            ></img>
-          </div>
+        <div>
+        <div className="split left">
+        <div className="centered">
+
+        <img 
+        className="profile_image"
+        alt="Profile Pic"
+        src={shriya}
+        ></img>
+        </div>
         </div>
         <div className="split right">
-          <div className="centered">
-            <div className="name_title">Your Name</div>
-            <div className="brief_description">
-              Tell us about yourself in a few sentences. Tell us your interests
-              and say a fun fact about yourself.
-            </div>
-          </div>
+        <div className="name_title">Shriya Srinivas</div>
+        <div className="brief_description">
+        Education: Purdue University, Computer Engineering
         </div>
+        <div></div>
+        <div></div>
+        <div className="brief_description">
+        Hometown: Minneapolis, MN 
+        </div>
+        <div></div><div></div>
+        <div className="brief_description">
+        Hobbies: Dancing, Traveling, Hanging Out With Friends
+        </div>
+        <div></div><div></div>
+        <div className="brief_description">
+        Fun Fact: I am allergic to olive oil!
+        </div>
+        </div>
+        </div> 
       </div>
-    );
+    )
   }
 }
